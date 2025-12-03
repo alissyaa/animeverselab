@@ -32,7 +32,7 @@ GoRouter createRouter() {
       final isAuthRoute =
           state.matchedLocation == AppRoutes.signIn ||
               state.matchedLocation == AppRoutes.signUp;
-
+// ubahahahah
       if (!isAuthenticated && !isAuthRoute) {
         return AppRoutes.signIn;
       }
